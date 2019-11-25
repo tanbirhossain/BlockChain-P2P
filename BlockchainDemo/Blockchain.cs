@@ -57,8 +57,6 @@ namespace BlockchainDemo
         {
             //we have to keep in mind every time mining means  one block complete .
             //all pending transaction and previous transaction hash linked in this block
-            // after block complere all previous transaction list will be empty
-
             Block block = new Block(DateTime.Now, GetLatestBlock().Hash, PendingTransactions);//B-1
 
             //here is populate block other variables and this block to the Block list chain
