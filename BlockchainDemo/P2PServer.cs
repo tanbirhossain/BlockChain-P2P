@@ -5,6 +5,7 @@ using System.Text;
 using WebSocketSharp;
 using WebSocketSharp.Server;
 
+//https://medium.com/@shivamrawat_756/guide-to-p2p-over-internet-9f7cf41470bd
 namespace BlockchainDemo
 {
     public class P2PServer: WebSocketBehavior
