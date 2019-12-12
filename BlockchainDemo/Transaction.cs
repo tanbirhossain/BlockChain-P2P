@@ -4,6 +4,7 @@ using System.Text;
 
 namespace BlockchainDemo
 {
+    //Update
     public class Transaction
     {
         public string FromAddress { get; set; }
